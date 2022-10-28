@@ -85,7 +85,7 @@ function sqaure(arg) {
  
  function evenPositionedchars(even1){
    var finalstr="";
-    for(let index=1; index <even1.length; index++)
+    for(let index=0; index <even1.length; index++)
     {
     if(index%2==0 && even1[index]!=" ")
     {
@@ -102,7 +102,7 @@ function sqaure(arg) {
  console.log("----------------Q5.2--------------------");
  function oddPositionedchars(odd1){
    var finalstr="";
-    for(let index=1; index <odd1.length; index++)
+    for(let index=0; index <odd1.length; index++)
     {
     if(index%2!=0 && odd1[index]!=" ")
     {
