@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Session Storage </title>
+    </head>
+
+    <body>
+        <h3> Understanding Session Storage </h3>
+        <script>
+
+            window.sessionStorage.setItem("Abhijeet", "Sangli");
+            window.sessionStorage.setItem("Digvijay", "Pune");
+            window.sessionStorage.setItem("Sharayu", "Mumbai");
+            window.sessionStorage.setItem("Rushikesh", "Kolhapur");
+            console.log(window.sessionStorage);
+        
+            console.log("After Removing Record Sharayu");
+            window.sessionStorage.removeItem("Sharayu");
+            console.log(window.sessionStorage);
+
+            console.log("GetItem for Digvijay");
+            console.log(window.sessionStorage.getItem("Digvijay"));
+        
+            
+         /*
+             console.log("After Clear");
+            window.sessionStorage.clear();
+            console.log(window.sessionStorage.length);
+           */ 
+
+        </script>
+    </body>
+</html>
